@@ -1,0 +1,127 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+h2, h4, h3,p, ul{
+    margin: 0px;
+}
+
+*,*::before, *::after{box-sizing: inherit;}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: karla;
+}
+.card{
+    width: 700px;
+    height:500px;
+    box-shadow: 3px 4px 7px -3px rgba(10,10,10,1);
+    border-radius: 7px;
+    overflow: hidden;
+    
+
+}
+.top-box{
+    background-color: white;
+    width: 100%;
+    height: 45%;
+    padding: 30px;
+}
+.top-box h2{
+    color: rgb(33, 201, 201);
+    margin-bottom: 30;
+    font-weight: 700;
+}
+.top-box p{
+    color: rgb(166, 166, 180);
+    margin-bottom: 15px;
+}
+.top-box > .promise{
+    font-size: 1.12rem;
+}
+
+.bottom-box{
+    height: 55%;
+    width: 100%;
+}
+.bottom-left{
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 7%;
+    background-color: rgb(33, 201, 201);
+    position: relative;
+}
+
+.price,.perMonth{
+    display: inline-block;
+    
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.perMonth{
+    padding: 10px;
+    position: relative;
+    top: -6;
+    opacity: 0.7;
+    font-size: 0.93rem;
+    
+    
+}
+
+
+.bottom-right{
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 7%;
+    background-color: rgb(76, 230, 230);
+    line-height: 150%;
+}
+
+.bottom-right ul{
+    font-size: 0.8rem;
+    list-style: none;
+    padding: 0px;
+    opacity: 0.8;
+}
+
+button{
+    box-shadow: 5px 9px 18px -10px rgba(0,0,0,0.79);
+    border: none;
+    background-color: rgb(197, 228, 86);
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color:aquamarine;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition-duration: 300ms;
+    
+}
+.bottom-left h3{
+    margin-bottom: 8%;
+}
+
+
+.bottom-left p{
+    font-size: 0.9rem;
+    margin-top: 2%;
+    margin-bottom: 30;
+    
+}
